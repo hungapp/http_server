@@ -1,4 +1,4 @@
-var http = require("http");
+var http = require("http"); //require the http module that ships with Node.js
 
 http
   .createServer(function(request, response) {
